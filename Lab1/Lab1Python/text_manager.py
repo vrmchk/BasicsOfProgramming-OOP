@@ -1,5 +1,11 @@
 def split_text_to_new_lines(string: str) -> list[str]:  # розбивання речення по рядочкам
-    return string.replace(". ", ".\n").split('\n')
+    text = string.replace("\r", "").replace(".", ".\n").split('\n')
+    result_text = []
+    for line in text:
+        if len(line) > 0:
+            result_text.append(line)
+
+    return result_text
 
 
 def define_longest_in_string(string: str) -> str:  # знайти найдовше слово, поставити на початок його і довжину
@@ -12,7 +18,7 @@ def define_longest_in_string(string: str) -> str:  # знайти найдовш
             max_word = word
             len_of_max_word = len(word)
 
-    return f"[{len_of_max_word} {max_word}] " + string
+    return f"[{len_of_max_word} {max_word}] " + string.lstrip()
 
 
 def define_longest_in_text(text: list[str]) -> list[str]:  # виконати завдання для всіх рядків

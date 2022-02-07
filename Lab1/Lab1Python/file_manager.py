@@ -1,5 +1,6 @@
-def generate_file(file_name, text: str):  # створення і заповнення файлу
+def generate_file(file_name, text: list[str]):  # створення і заповнення файлу
     file = open(file_name, "w")
+    text = '\n'.join(text)
     file.write(text)
     file.close()
 

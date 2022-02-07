@@ -24,7 +24,7 @@ internal class FileManager
     public void PrintFromFile(string fileName) // виведення тексту з файлу
     {
         StreamReader streamReader = new StreamReader(fileName);
-        Console.WriteLine($"File name is {fileName}");
+        Console.WriteLine($"\nFile name is {fileName}");
         Console.WriteLine(streamReader.ReadToEnd());
         streamReader.Close();
     }
