@@ -7,9 +7,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/Lab1Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab1Python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/file_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_file" beforeDir="false" afterPath="$PROJECT_DIR$/first_file" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_file" beforeDir="false" afterPath="$PROJECT_DIR$/second_file" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1Sharp/Lab1Sharp/FileManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1Sharp/Lab1Sharp/FileManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1Sharp/Lab1Sharp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1Sharp/Lab1Sharp/Program.cs" afterDir="false" />
@@ -87,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644255635651</updated>
-      <workItem from="1644255644022" duration="5237000" />
+      <workItem from="1644255644022" duration="5663000" />
     </task>
     <servers />
   </component>
@@ -95,6 +95,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Lab1Python$Unnamed.coverage" NAME="main Coverage Results" MODIFIED="1644262161312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lab1Python$Unnamed.coverage" NAME="main Coverage Results" MODIFIED="1644262665161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
