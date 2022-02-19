@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BasicsOfProgramming(OOP)\\Lab1\\Lab1Sharp\\Lab1Sharp\\Lab1Sharp.csproj": {}
+    "D:\\BasicsOfProgramming(OOP)\\Lab2\\Lab2Sharp\\Lab2Sharp\\Lab2Sharp.csproj": {}
   },
   "projects": {
-    "D:\\BasicsOfProgramming(OOP)\\Lab1\\Lab1Sharp\\Lab1Sharp\\Lab1Sharp.csproj": {
+    "D:\\BasicsOfProgramming(OOP)\\Lab2\\Lab2Sharp\\Lab2Sharp\\Lab2Sharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BasicsOfProgramming(OOP)\\Lab1\\Lab1Sharp\\Lab1Sharp\\Lab1Sharp.csproj",
-        "projectName": "Lab1Sharp",
-        "projectPath": "D:\\BasicsOfProgramming(OOP)\\Lab1\\Lab1Sharp\\Lab1Sharp\\Lab1Sharp.csproj",
+        "projectUniqueName": "D:\\BasicsOfProgramming(OOP)\\Lab2\\Lab2Sharp\\Lab2Sharp\\Lab2Sharp.csproj",
+        "projectName": "Lab2Sharp",
+        "projectPath": "D:\\BasicsOfProgramming(OOP)\\Lab2\\Lab2Sharp\\Lab2Sharp\\Lab2Sharp.csproj",
         "packagesPath": "C:\\Users\\ihorv\\.nuget\\packages\\",
-        "outputPath": "D:\\BasicsOfProgramming(OOP)\\Lab1\\Lab1Sharp\\Lab1Sharp\\obj\\",
+        "outputPath": "D:\\BasicsOfProgramming(OOP)\\Lab2\\Lab2Sharp\\Lab2Sharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ihorv\\AppData\\Roaming\\NuGet\\NuGet.Config",
