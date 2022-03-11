@@ -57,14 +57,14 @@ namespace Lab3Sharp
             Console.WriteLine();
         }
 
-        private double GetCircuit() => 2 * Math.PI * _radius;
+        private double SetCircuit() => 2 * Math.PI * _radius;
 
-        private double GetSquare() => Math.PI * Math.Pow(_radius, 2);
+        private double SetSquare() => Math.PI * Math.Pow(_radius, 2);
 
         private void SetCircuitAndSquare()
         {
-            Circuit = GetCircuit();
-            Square = GetSquare();
+            Circuit = SetCircuit();
+            Square = SetSquare();
         }
     }
 }
