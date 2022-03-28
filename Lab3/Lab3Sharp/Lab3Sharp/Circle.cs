@@ -10,8 +10,6 @@ namespace Lab3Sharp
         private int _radius;
 
         public (int, int) CenterCoordinates { get; set; }
-        public double Circuit { get; private set; }
-        public double Square { get; private set; }
 
         public int Radius
         {
@@ -21,28 +19,28 @@ namespace Lab3Sharp
                 if (value > 0)
                 {
                     _radius = value;
-                    SetCircuitAndSquare();
                 }
             }
         }
+
+        public double Circuit => 2 * Math.PI * _radius;
+        public double Square => Math.PI * Math.Pow(_radius, 2);
 
         public Circle(int centerX = 0, int centerY = 0, int radius = 1)
         {
             CenterCoordinates = (centerX, centerY);
             Radius = radius;
-            SetCircuitAndSquare();
         }
 
         public Circle((int, int) centerCoordinates, int radius)
         {
             CenterCoordinates = centerCoordinates;
             Radius = radius;
-            SetCircuitAndSquare();
         }
 
         public void PrintCircle()
         {
-            int printCellSize = 25;
+            const int printCellSize = 25;
             string[] circleProperties =
             {
                 $"Center: {CenterCoordinates}", $"Radius: {_radius}",
@@ -55,16 +53,6 @@ namespace Lab3Sharp
             }
 
             Console.WriteLine();
-        }
-
-        private double SetCircuit() => 2 * Math.PI * _radius;
-
-        private double SetSquare() => Math.PI * Math.Pow(_radius, 2);
-
-        private void SetCircuitAndSquare()
-        {
-            Circuit = SetCircuit();
-            Square = SetSquare();
         }
     }
 }
