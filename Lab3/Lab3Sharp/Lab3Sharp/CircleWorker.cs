@@ -7,7 +7,7 @@ namespace Lab3Sharp
 {
     internal class CircleWorker
     {
-        public void Start()
+        public void Start() //запуск роботи з кругами
         {
             var arrayOfCircles = ArrayOfCircles(size: 10, random: true);
             Circle maxCircle = GetMaxCircle(arrayOfCircles);
@@ -17,12 +17,12 @@ namespace Lab3Sharp
             Console.ReadLine();
         }
 
-        private Circle[] ArrayOfCircles(int size, bool random = true)
+        private Circle[] ArrayOfCircles(int size, bool random = true) //масив кругів
         {
             return random ? RandomArrayOfCircles(size) : ConsoleArrayOfCircles(size);
         }
 
-        private Circle[] RandomArrayOfCircles(int size)
+        private Circle[] RandomArrayOfCircles(int size) //масив випадкових кругів
         {
             Random random = new Random();
             var circles = new Circle[size];
@@ -36,7 +36,7 @@ namespace Lab3Sharp
             return circles;
         }
 
-        private Circle[] ConsoleArrayOfCircles(int size)
+        private Circle[] ConsoleArrayOfCircles(int size) //масив кругів з даними з консолі
         {
             var circles = new Circle[size];
             for (int i = 0; i < size; i++)
@@ -54,7 +54,7 @@ namespace Lab3Sharp
             return circles;
         }
 
-        private void PrintCircles(Circle[] circles, string prePrint = "")
+        private void PrintCircles(Circle[] circles, string prePrint = "") //вивести масив кругів
         {
             Console.WriteLine(prePrint);
 
@@ -66,15 +66,9 @@ namespace Lab3Sharp
             Console.WriteLine();
         }
 
-        private Circle GetMaxCircle(Circle[] circles)
+        private Circle GetMaxCircle(Circle[] circles) //знайти найбільший круг в масиві
         {
-            Circle maxCircle = circles.First();
-            foreach (Circle circle in circles)
-            {
-                if (maxCircle.Radius < circle.Radius) maxCircle = circle;
-            }
-
-            return maxCircle;
+            return circles.MaxBy(c => c.Radius)!;
         }
     }
 }

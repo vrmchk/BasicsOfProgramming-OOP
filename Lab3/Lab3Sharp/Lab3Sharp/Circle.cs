@@ -16,13 +16,10 @@ namespace Lab3Sharp
             get => _radius;
             set
             {
-                if (value > 0)
-                {
-                    _radius = value;
-                }
+                if (value > 0) _radius = value;
             }
         }
-
+        
         public double Circuit => 2 * Math.PI * _radius;
         public double Square => Math.PI * Math.Pow(_radius, 2);
 
@@ -38,7 +35,7 @@ namespace Lab3Sharp
             Radius = radius;
         }
 
-        public void PrintCircle()
+        public void PrintCircle() //вивести дані круга
         {
             const int printCellSize = 25;
             string[] circleProperties =
