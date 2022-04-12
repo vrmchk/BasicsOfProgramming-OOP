@@ -1,0 +1,15 @@
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\bin\Debug\net6.0\Lab4Sharp.exe
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\bin\Debug\net6.0\Lab4Sharp.deps.json
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\bin\Debug\net6.0\Lab4Sharp.runtimeconfig.json
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\bin\Debug\net6.0\Lab4Sharp.dll
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\bin\Debug\net6.0\ref\Lab4Sharp.dll
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\bin\Debug\net6.0\Lab4Sharp.pdb
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\obj\Debug\net6.0\Lab4Sharp.csproj.AssemblyReference.cache
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\obj\Debug\net6.0\Lab4Sharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\obj\Debug\net6.0\Lab4Sharp.AssemblyInfoInputs.cache
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\obj\Debug\net6.0\Lab4Sharp.AssemblyInfo.cs
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\obj\Debug\net6.0\Lab4Sharp.csproj.CoreCompileInputs.cache
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\obj\Debug\net6.0\Lab4Sharp.dll
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\obj\Debug\net6.0\ref\Lab4Sharp.dll
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\obj\Debug\net6.0\Lab4Sharp.pdb
+D:\BasicsOfProgramming(OOP)\Lab4\Lab4Sharp\Lab4Sharp\obj\Debug\net6.0\Lab4Sharp.genruntimeconfig.cache
