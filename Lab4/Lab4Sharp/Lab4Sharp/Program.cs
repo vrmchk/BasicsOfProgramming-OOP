@@ -15,7 +15,7 @@ namespace Lab4Sharp
                 new Time(14, 30, 40),
                 new Time(3, 25)
             };
-            
+
             TimeWorker.PrintTimeArray(timeArray, "Starting time");
 
             timeArray[0] += 17;
@@ -24,13 +24,11 @@ namespace Lab4Sharp
             TimeWorker.PrintTimeArray(timeArray, "Changed time");
 
             Console.WriteLine("Difference between time 1 and 2");
-            Time timeDifference = timeArray[0] - timeArray[1];
-            timeDifference.Print();
+            Console.WriteLine(timeArray[0] - timeArray[1]);
 
             Console.WriteLine("\nTime from time 3 to the end of the day");
-            timeArray[2].GetTimeToEndOfDay().Print();
+            Console.WriteLine(timeArray[2].GetTimeToEndOfDay());
             Console.ReadLine();
-
         }
     }
 }

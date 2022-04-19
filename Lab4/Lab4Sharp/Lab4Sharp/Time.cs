@@ -35,7 +35,7 @@ namespace Lab4Sharp
         {
             Second = second;
         }
-        
+
 
         public int Hour
         {
@@ -85,15 +85,15 @@ namespace Lab4Sharp
 
         public Time GetTimeToEndOfDay() => new Time(24 - _hour, 0 - _minute, 0 - _second);
 
-        public void Print()
+        public override string ToString()
         {
             int[] properties = {_hour, _minute, _second};
             string[] printable =
                 properties.Select(p => p.ToString().Length == 1 ? $"0{p}" : p.ToString()).ToArray();
 
-            Console.WriteLine($"{printable[0]}:{printable[1]}:{printable[2]}");
+            return $"{printable[0]}:{printable[1]}:{printable[2]}";
         }
-
+        
         public static Time? Parse(string str)
         {
             int[] nums = str.Split(new[] {' ', ',', '.', ':', ';', '/'}, StringSplitOptions.RemoveEmptyEntries)

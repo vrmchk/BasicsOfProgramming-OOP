@@ -10,7 +10,7 @@ namespace Lab4Sharp
         public static void PrintTimeArray(Time[] timeArray, string prePrint = "") //вивести масив часу
         {
             Console.WriteLine(prePrint);
-            Array.ForEach(timeArray, t => t.Print());
+            Array.ForEach(timeArray, Console.WriteLine);
             Console.WriteLine();
         }
 
