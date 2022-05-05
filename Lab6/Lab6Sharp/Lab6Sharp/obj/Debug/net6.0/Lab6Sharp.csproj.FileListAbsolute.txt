@@ -1,0 +1,15 @@
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\bin\Debug\net6.0\Lab6Sharp.exe
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\bin\Debug\net6.0\Lab6Sharp.deps.json
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\bin\Debug\net6.0\Lab6Sharp.runtimeconfig.json
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\bin\Debug\net6.0\Lab6Sharp.dll
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\bin\Debug\net6.0\ref\Lab6Sharp.dll
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\bin\Debug\net6.0\Lab6Sharp.pdb
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\obj\Debug\net6.0\Lab6Sharp.csproj.AssemblyReference.cache
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\obj\Debug\net6.0\Lab6Sharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\obj\Debug\net6.0\Lab6Sharp.AssemblyInfoInputs.cache
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\obj\Debug\net6.0\Lab6Sharp.AssemblyInfo.cs
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\obj\Debug\net6.0\Lab6Sharp.csproj.CoreCompileInputs.cache
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\obj\Debug\net6.0\Lab6Sharp.dll
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\obj\Debug\net6.0\ref\Lab6Sharp.dll
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\obj\Debug\net6.0\Lab6Sharp.pdb
+D:\BasicsOfProgramming(OOP)\Lab6\Lab6Sharp\Lab6Sharp\obj\Debug\net6.0\Lab6Sharp.genruntimeconfig.cache
